@@ -1,0 +1,28 @@
+
+------------------------------  Info  ------------------------------
+| Time		:	2018-07-18 09:28:46
+| Class	:	app\api\controller\Index
+| Func		:	login
+| Line		:	17
+| File		:	D:\my\rongnuo\application\api\controller\Index.php
+| Content	:	
+| {"param":{"password":"123456","mobile":"15638429597"}}
+---------------------------------------------------------------------
+------------------------------  Info  ------------------------------
+| Time		:	2018-07-18 09:30:16
+| Class	:	app\api\controller\Index
+| Func		:	login
+| Line		:	17
+| File		:	D:\my\rongnuo\application\api\controller\Index.php
+| Content	:	
+| {"param":{"password":"123456","mobile":"15638429597"}}
+---------------------------------------------------------------------
+------------------------------  Info  ------------------------------
+| Time		:	2018-07-18 09:30:20
+| Class	:	app\api\controller\Index
+| Func		:	login
+| Line		:	17
+| File		:	D:\my\rongnuo\application\api\controller\Index.php
+| Content	:	
+| {"param":{"password":"123456","mobile":"15638429597"}}
+---------------------------------------------------------------------

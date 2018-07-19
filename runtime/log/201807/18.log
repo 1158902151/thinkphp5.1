@@ -1,0 +1,3674 @@
+---------------------------------------------------------------
+[ 2018-07-18T10:36:18+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.141306s][吞吐率：7.08req/s] [内存消耗：2,375.84kb] [文件加载：61]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011395s ] mysql:host=127.0.0.1;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ RunTime:0.013708s ]
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ RunTime:0.002240s ]
+[ sql ] [ SQL ] UPDATE `rns_users`  SET `last_datetime`=1531881378,`last_ip`='127.0.0.1',`security_code`='03eede4a22e24f0066b3fb2a420de3a89d751dfb'  WHERE  `id` = 436 [ RunTime:0.004095s ]
+---------------------------------------------------------------
+[ 2018-07-18T10:36:23+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.108497s][吞吐率：9.22req/s] [内存消耗：2,376.05kb] [文件加载：61]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010929s ] mysql:host=127.0.0.1;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ RunTime:0.007820s ]
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ RunTime:0.001136s ]
+[ sql ] [ SQL ] UPDATE `rns_users`  SET `last_datetime`=1531881383,`last_ip`='127.0.0.1',`security_code`='fe6af30b7a76f83dcc0750b69abf058b366cb4d8'  WHERE  `id` = 436 [ RunTime:0.003574s ]
+---------------------------------------------------------------
+[ 2018-07-18T10:36:26+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.103313s][吞吐率：9.68req/s] [内存消耗：2,376.05kb] [文件加载：61]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010691s ] mysql:host=127.0.0.1;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ RunTime:0.007268s ]
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ RunTime:0.001043s ]
+[ sql ] [ SQL ] UPDATE `rns_users`  SET `last_datetime`=1531881386,`last_ip`='127.0.0.1',`security_code`='e4c2a1f0ec6f1585ab903f49d377f5fda8dcba47'  WHERE  `id` = 436 [ RunTime:0.003446s ]
+---------------------------------------------------------------
+[ 2018-07-18T10:37:02+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.082436s][吞吐率：12.13req/s] [内存消耗：2,375.75kb] [文件加载：61]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010543s ] mysql:host=127.0.0.1;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ RunTime:0.007296s ]
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ RunTime:0.001078s ]
+[ sql ] [ SQL ] UPDATE `rns_users`  SET `last_datetime`=1531881422,`last_ip`='127.0.0.1',`security_code`='ff6144dec5f7142f36d3244953408a23e11bb3e3'  WHERE  `id` = 436 [ RunTime:0.003306s ]
+---------------------------------------------------------------
+[ 2018-07-18T10:37:13+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.079451s][吞吐率：12.59req/s] [内存消耗：2,376.05kb] [文件加载：61]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010793s ] mysql:host=127.0.0.1;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ RunTime:0.008777s ]
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ RunTime:0.001134s ]
+[ sql ] [ SQL ] UPDATE `rns_users`  SET `last_datetime`=1531881433,`last_ip`='127.0.0.1',`security_code`='778db72e75c7cdf535aa26d26e2ca8d007f74960'  WHERE  `id` = 436 [ RunTime:0.003569s ]
+---------------------------------------------------------------
+[ 2018-07-18T10:38:33+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.099285s][吞吐率：10.07req/s] [内存消耗：2,376.05kb] [文件加载：61]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000832s ] mysql:host=127.0.0.1;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ RunTime:0.006962s ]
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ RunTime:0.001106s ]
+[ sql ] [ SQL ] UPDATE `rns_users`  SET `last_datetime`=1531881513,`last_ip`='127.0.0.1',`security_code`='d56fa0ca6ffacb11a745b1f5e009c939c3447fc4'  WHERE  `id` = 436 [ RunTime:0.002103s ]
+---------------------------------------------------------------
+[ 2018-07-18T11:04:11+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.337684s][吞吐率：2.96req/s] [内存消耗：2,353.36kb] [文件加载：58]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] SQLSTATE[HY000] [1045] Access denied for user 'root'@'183.157.160.194' (using password: YES)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004643s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ slave|RunTime:0.112881s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003012s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ slave|RunTime:0.026214s ]
+---------------------------------------------------------------
+[ 2018-07-18T11:04:14+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.220356s][吞吐率：4.54req/s] [内存消耗：2,353.36kb] [文件加载：58]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] SQLSTATE[HY000] [1045] Access denied for user 'root'@'183.157.160.194' (using password: YES)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002253s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ slave|RunTime:0.028511s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004423s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ slave|RunTime:0.004590s ]
+---------------------------------------------------------------
+[ 2018-07-18T11:04:14+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.205892s][吞吐率：4.86req/s] [内存消耗：2,353.36kb] [文件加载：58]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] SQLSTATE[HY000] [1045] Access denied for user 'root'@'183.157.160.194' (using password: YES)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011730s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ slave|RunTime:0.005650s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011955s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ slave|RunTime:0.003967s ]
+---------------------------------------------------------------
+[ 2018-07-18T11:05:07+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.212410s][吞吐率：4.71req/s] [内存消耗：2,359.84kb] [文件加载：58]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] SQLSTATE[HY000] [1045] Access denied for user 'root'@'183.157.160.194' (using password: YES)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002650s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ slave|RunTime:0.005838s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002145s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ slave|RunTime:0.003346s ]
+---------------------------------------------------------------
+[ 2018-07-18T11:05:07+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.239982s][吞吐率：4.17req/s] [内存消耗：2,359.84kb] [文件加载：58]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] SQLSTATE[HY000] [1045] Access denied for user 'root'@'183.157.160.194' (using password: YES)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012034s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ slave|RunTime:0.005470s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012432s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ slave|RunTime:0.003940s ]
+---------------------------------------------------------------
+[ 2018-07-18T11:05:08+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.254982s][吞吐率：3.92req/s] [内存消耗：2,359.84kb] [文件加载：58]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] SQLSTATE[HY000] [1045] Access denied for user 'root'@'183.157.160.194' (using password: YES)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002343s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ slave|RunTime:0.005895s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012278s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ slave|RunTime:0.003418s ]
+---------------------------------------------------------------
+[ 2018-07-18T11:05:09+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.255670s][吞吐率：3.91req/s] [内存消耗：2,359.84kb] [文件加载：58]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] SQLSTATE[HY000] [1045] Access denied for user 'root'@'183.157.160.194' (using password: YES)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012686s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ slave|RunTime:0.005386s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012157s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ slave|RunTime:0.006885s ]
+---------------------------------------------------------------
+[ 2018-07-18T11:05:09+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.187507s][吞吐率：5.33req/s] [内存消耗：2,359.84kb] [文件加载：58]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] SQLSTATE[HY000] [1045] Access denied for user 'root'@'183.157.160.194' (using password: YES)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011193s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ slave|RunTime:0.005060s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012005s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ slave|RunTime:0.003311s ]
+---------------------------------------------------------------
+[ 2018-07-18T11:05:10+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.175203s][吞吐率：5.71req/s] [内存消耗：2,359.84kb] [文件加载：58]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] SQLSTATE[HY000] [1045] Access denied for user 'root'@'183.157.160.194' (using password: YES)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012210s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ slave|RunTime:0.005255s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002315s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ slave|RunTime:0.003423s ]
+---------------------------------------------------------------
+[ 2018-07-18T11:05:10+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.219528s][吞吐率：4.56req/s] [内存消耗：2,359.84kb] [文件加载：58]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] SQLSTATE[HY000] [1045] Access denied for user 'root'@'183.157.160.194' (using password: YES)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011557s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ slave|RunTime:0.004929s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011530s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ slave|RunTime:0.002977s ]
+---------------------------------------------------------------
+[ 2018-07-18T11:05:10+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.218693s][吞吐率：4.57req/s] [内存消耗：2,359.84kb] [文件加载：58]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] SQLSTATE[HY000] [1045] Access denied for user 'root'@'183.157.160.194' (using password: YES)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002888s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ slave|RunTime:0.005302s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011663s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ slave|RunTime:0.003627s ]
+---------------------------------------------------------------
+[ 2018-07-18T11:05:10+08:00 ] 127.0.0.1 GET /login?password=123456&mobile=15638429597
+[ info ] localhost:8888/login?password=123456&mobile=15638429597 [运行时间：0.181868s][吞吐率：5.50req/s] [内存消耗：2,359.84kb] [文件加载：58]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] SQLSTATE[HY000] [1045] Access denied for user 'root'@'183.157.160.194' (using password: YES)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011598s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ slave|RunTime:0.005218s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012095s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = 'fddb5c0d13ab38675b2eee6d6f039ebe' LIMIT 1 [ slave|RunTime:0.003853s ]
+---------------------------------------------------------------
+[ 2018-07-18T11:05:12+08:00 ] 127.0.0.1 GET /login?password=136556&mobile=15638429597
+[ info ] localhost:8888/login?password=136556&mobile=15638429597 [运行时间：0.182802s][吞吐率：5.47req/s] [内存消耗：2,359.84kb] [文件加载：58]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'password' => '136556',
+  'mobile' => '15638429597',
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] SQLSTATE[HY000] [1045] Access denied for user 'root'@'183.157.160.194' (using password: YES)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011921s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rns_users` [ slave|RunTime:0.005871s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012471s ] mysql:host=192.168.152.47;dbname=mb;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `rns_users` WHERE  `mobile` = '15638429597'  AND `passwd` = '2177afb2d41b7340e2ffaa904cbe0447' LIMIT 1 [ slave|RunTime:0.003547s ]
+---------------------------------------------------------------
+[ 2018-07-18T11:05:14+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.030633s][吞吐率：32.64req/s] [内存消耗：1,377.21kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T11:05:15+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.035758s][吞吐率：27.97req/s] [内存消耗：1,377.21kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T11:05:16+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.033338s][吞吐率：30.00req/s] [内存消耗：1,377.21kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T11:05:16+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.030687s][吞吐率：32.59req/s] [内存消耗：1,377.21kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T11:07:55+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.060375s][吞吐率：16.56req/s] [内存消耗：1,169.76kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T11:07:56+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.034964s][吞吐率：28.60req/s] [内存消耗：1,169.76kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T11:08:03+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.040523s][吞吐率：24.68req/s] [内存消耗：1,169.76kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T11:08:04+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.051371s][吞吐率：19.47req/s] [内存消耗：1,169.76kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T11:09:23+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.029653s][吞吐率：33.72req/s] [内存消耗：1,370.66kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T11:41:55+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.036295s][吞吐率：27.55req/s] [内存消耗：1,371.33kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T11:57:06+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.051436s][吞吐率：19.44req/s] [内存消耗：1,174.64kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; PHPSESSID=hu0enl1l8qt27j7r3256hg29q0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:54:55+08:00 ] 127.0.0.1 GET /index/login/123
+[ info ] localhost:8888/index/login/123 [运行时间：0.045202s][吞吐率：22.12req/s] [内存消耗：1,161.48kb] [文件加载：41]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:54:56+08:00 ] 127.0.0.1 GET /index/login/123
+[ info ] localhost:8888/index/login/123 [运行时间：0.057463s][吞吐率：17.40req/s] [内存消耗：1,161.48kb] [文件加载：41]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:55:38+08:00 ] 127.0.0.1 GET /index/login/123
+[ info ] localhost:8888/index/login/123 [运行时间：0.047270s][吞吐率：21.16req/s] [内存消耗：1,161.48kb] [文件加载：41]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:55:39+08:00 ] 127.0.0.1 GET /index/login/123
+[ info ] localhost:8888/index/login/123 [运行时间：0.032135s][吞吐率：31.12req/s] [内存消耗：1,161.48kb] [文件加载：41]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:55:41+08:00 ] 127.0.0.1 GET /index/login/
+[ info ] localhost:8888/index/login/ [运行时间：0.034610s][吞吐率：28.89req/s] [内存消耗：1,161.37kb] [文件加载：41]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:55:41+08:00 ] 127.0.0.1 GET /index/login/
+[ info ] localhost:8888/index/login/ [运行时间：0.063941s][吞吐率：15.64req/s] [内存消耗：1,161.48kb] [文件加载：41]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:55:45+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.032657s][吞吐率：30.62req/s] [内存消耗：1,174.14kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:55:46+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.076187s][吞吐率：13.13req/s] [内存消耗：1,174.34kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:55:46+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.058989s][吞吐率：16.95req/s] [内存消耗：1,174.34kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:55:46+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.035840s][吞吐率：27.90req/s] [内存消耗：1,174.34kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:55:57+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.034736s][吞吐率：28.79req/s] [内存消耗：1,174.34kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:56:35+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.035473s][吞吐率：28.19req/s] [内存消耗：1,174.34kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:57:15+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.035537s][吞吐率：28.14req/s] [内存消耗：1,174.34kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:57:15+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.032119s][吞吐率：31.13req/s] [内存消耗：1,174.34kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:57:16+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.085869s][吞吐率：11.65req/s] [内存消耗：1,174.34kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:57:16+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.035614s][吞吐率：28.08req/s] [内存消耗：1,174.34kb] [文件加载：44]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:57:28+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.044745s][吞吐率：22.35req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:57:29+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.048653s][吞吐率：20.55req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:57:29+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.031031s][吞吐率：32.23req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:57:29+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.065320s][吞吐率：15.31req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:57:29+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.034210s][吞吐率：29.23req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:57:29+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.031123s][吞吐率：32.13req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:57:29+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.031224s][吞吐率：32.03req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:57:30+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.027316s][吞吐率：36.61req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:58:01+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.058398s][吞吐率：17.12req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:58:01+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.025753s][吞吐率：38.83req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:58:01+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.029563s][吞吐率：33.83req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:58:01+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.032414s][吞吐率：30.85req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:58:02+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.030308s][吞吐率：32.99req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:58:02+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.030160s][吞吐率：33.16req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:58:02+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.028758s][吞吐率：34.77req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:58:02+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.028510s][吞吐率：35.08req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:58:02+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.029861s][吞吐率：33.49req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T13:58:46+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.031334s][吞吐率：31.91req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:08:34+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.050683s][吞吐率：19.73req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:00+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.067291s][吞吐率：14.86req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:00+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.027952s][吞吐率：35.78req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:01+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.065045s][吞吐率：15.37req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:01+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.035894s][吞吐率：27.86req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:01+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.029783s][吞吐率：33.58req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:01+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.032459s][吞吐率：30.81req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:01+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.032765s][吞吐率：30.52req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:41+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.032739s][吞吐率：30.54req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:42+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.028833s][吞吐率：34.68req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:42+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.026843s][吞吐率：37.25req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:42+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.033197s][吞吐率：30.12req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:42+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.032112s][吞吐率：31.14req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:43+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.032870s][吞吐率：30.42req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:43+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.031700s][吞吐率：31.55req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:43+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.030710s][吞吐率：32.56req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:44+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.031548s][吞吐率：31.70req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:45+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.030601s][吞吐率：32.68req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:45+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.032582s][吞吐率：30.69req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:12:46+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.032553s][吞吐率：30.72req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:13:27+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.031170s][吞吐率：32.08req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:13:27+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.030605s][吞吐率：32.67req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:13:27+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.052710s][吞吐率：18.97req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:13:28+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.033284s][吞吐率：30.04req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:13:28+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.030233s][吞吐率：33.08req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:13:28+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.054484s][吞吐率：18.35req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:25:30+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.033066s][吞吐率：30.24req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:31:06+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.030937s][吞吐率：32.32req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:36:35+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.029624s][吞吐率：33.76req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:36:37+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.023761s][吞吐率：42.09req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:57:49+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.044042s][吞吐率：22.71req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:57:50+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.029514s][吞吐率：33.88req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:57:50+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.042989s][吞吐率：23.26req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:57:51+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.055190s][吞吐率：18.12req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:57:51+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.030389s][吞吐率：32.91req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:57:51+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.047740s][吞吐率：20.95req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:57:51+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.027704s][吞吐率：36.10req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:57:51+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.029396s][吞吐率：34.02req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:58:07+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.057259s][吞吐率：17.46req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:58:07+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.029200s][吞吐率：34.25req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T14:58:08+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.051596s][吞吐率：19.38req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T16:01:28+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.057915s][吞吐率：17.27req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T16:01:29+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.030837s][吞吐率：32.43req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T16:01:29+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.030605s][吞吐率：32.67req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T16:01:29+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.032310s][吞吐率：30.95req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T16:01:29+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.030258s][吞吐率：33.05req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T16:01:29+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.030828s][吞吐率：32.44req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T16:01:30+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.029922s][吞吐率：33.42req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T16:01:30+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.029910s][吞吐率：33.43req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T16:05:58+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.036406s][吞吐率：27.47req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T16:05:59+08:00 ] 127.0.0.1 GET /login
+[ info ] localhost:8888/login [运行时间：0.030195s][吞吐率：33.12req/s] [内存消耗：1,371.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\my\rongnuo\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Phpstorm-3438eef=33843faf-4088-4385-b556-e7684f47d464; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->login[ D:\my\rongnuo\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
